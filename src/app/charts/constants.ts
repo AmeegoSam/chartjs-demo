@@ -1,5 +1,7 @@
 import { BaseData } from "./types";
 
+export const COLORS = ['#BAF3D7','#75AADF','#CBA9DA','#FFE082'];
+
 export const DEFAULT_DATA: BaseData = {
   title: "Age Profile",
   dataset: [
