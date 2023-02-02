@@ -1,6 +1,7 @@
 import { BarElement, ChartOptions, LinearScale } from "chart.js";
 
 export const DEFAULT_BAR_CHART_OPTIONS: ChartOptions<"bar"> = {
+  aspectRatio: 1,
   scales: {
     y: { beginAtZero: true },
   },

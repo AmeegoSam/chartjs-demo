@@ -1,6 +1,7 @@
 import { ArcElement, ChartOptions, LinearScale } from "chart.js";
 
 export const DEFAULT_PIE_CHART_OPTIONS: ChartOptions<"pie"> = {
+  aspectRatio: 1,
   scales: {
     y: { beginAtZero: true },
   },
@@ -10,6 +11,7 @@ export const DEFAULT_PIE_CHART_OPTIONS: ChartOptions<"pie"> = {
     },
     title: {
       display: true,
+      text: ''
     },
   },
 };

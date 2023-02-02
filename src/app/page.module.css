@@ -1,4 +1,9 @@
-.chart {
-    width: 33%;
-    display: inline-block;
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
+.chart  {
+    align-items: center;
+}
+
