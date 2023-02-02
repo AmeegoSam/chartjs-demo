@@ -23,7 +23,7 @@ const DataForm: FC<{}> = () => {
     });
   }
     return (
-    <>
+    <div>
       {data.dataset.map((dataSet, i) => (
         <>
           <div key={`dataSet-${i}`}>{dataSet.label}</div>
@@ -35,7 +35,7 @@ const DataForm: FC<{}> = () => {
           ))}
         </>
       ))}
-    </>
+    </div>
     );
 };
 
